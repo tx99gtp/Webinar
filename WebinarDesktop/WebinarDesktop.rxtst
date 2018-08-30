@@ -48,6 +48,20 @@ rxversion="8.2">
 			name="AddDbEntry"
 			ref="4c9ea26c-08cd-420f-b070-5d438b78d37d"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="varLname"
+					datasourceid="717feacf-35e9-4eda-9307-ee27c4209076"
+					variableid="56c2dddd-53be-4b5e-935e-bd0a39421a6e"
+					variablename="varLname">
+					</var>
+					<var
+					dataname="varFname"
+					datasourceid="717feacf-35e9-4eda-9307-ee27c4209076"
+					variableid="0d22e1db-57a2-4805-8be3-176cdafdc00f"
+					variablename="varFname">
+					</var>
+				</databinding>
 			</testmodule>
 			<testmodule
 			id="63c7ba2f-49ad-410d-98b2-04dc2f175309"
@@ -59,6 +73,16 @@ rxversion="8.2">
 			id="717feacf-35e9-4eda-9307-ee27c4209076"
 			name="WebinarDesktop"
 			reportlevel="Info;20">
+				<parameters>
+					<param
+					name="varFname"
+					value="">
+					</param>
+					<param
+					name="varLname"
+					value="">
+					</param>
+				</parameters>
 			</testcase>
 			<testmodule
 			id="8fb430ec-56b5-4f65-b6af-d7d28edc9f11"

@@ -41,6 +41,8 @@ namespace WebinarDesktop
         /// </summary>
         public AddDbEntry()
         {
+            varFname = "Josh";
+            varLname = "Owen";
         }
 
         /// <summary>
@@ -52,6 +54,30 @@ namespace WebinarDesktop
         }
 
 #region Variables
+
+        string _varFname;
+
+        /// <summary>
+        /// Gets or sets the value of variable varFname.
+        /// </summary>
+        [TestVariable("0d22e1db-57a2-4805-8be3-176cdafdc00f")]
+        public string varFname
+        {
+            get { return _varFname; }
+            set { _varFname = value; }
+        }
+
+        string _varLname;
+
+        /// <summary>
+        /// Gets or sets the value of variable varLname.
+        /// </summary>
+        [TestVariable("56c2dddd-53be-4b5e-935e-bd0a39421a6e")]
+        public string varLname
+        {
+            get { return _varLname; }
+            set { _varLname = value; }
+        }
 
 #endregion
 
@@ -87,16 +113,16 @@ namespace WebinarDesktop
             repo.RxMainFrame.FirstName.Focus();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Josh' with focus on 'RxMainFrame.FirstName'.", repo.RxMainFrame.FirstNameInfo, new RecordItemIndex(2));
-            repo.RxMainFrame.FirstName.PressKeys("Josh");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$varFname' with focus on 'RxMainFrame.FirstName'.", repo.RxMainFrame.FirstNameInfo, new RecordItemIndex(2));
+            repo.RxMainFrame.FirstName.PressKeys(varFname);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Invoke action", "Invoking Focus() on item 'RxMainFrame.LastName'.", repo.RxMainFrame.LastNameInfo, new RecordItemIndex(3));
             repo.RxMainFrame.LastName.Focus();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'Owen' with focus on 'RxMainFrame.LastName'.", repo.RxMainFrame.LastNameInfo, new RecordItemIndex(4));
-            repo.RxMainFrame.LastName.PressKeys("Owen");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence from variable '$varLname' with focus on 'RxMainFrame.LastName'.", repo.RxMainFrame.LastNameInfo, new RecordItemIndex(4));
+            repo.RxMainFrame.LastName.PressKeys(varLname);
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.Open' at 7;6.", repo.RxMainFrame.OpenInfo, new RecordItemIndex(5));

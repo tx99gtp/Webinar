@@ -68,17 +68,26 @@ rxversion="8.2">
 			</arguments>
 		</invokeactionrecorditem>
 		<keysequenceitem
-		KeySequence="{LShiftKey down}{LWin down}{Right down}{LShiftKey up}{LWin up}{Right up}"
+		KeySequence="{LShiftKey down}{LWin down}{Right}{LShiftKey up}{LWin up}"
 		duration="100ms"
 		enabled="True"
 		optional="False"
 		presstime="100ms"
-		searchpropertyid="02238432-36fb-4a2a-95f2-e89378e66c8c">
+		searchpropertyid="6ac82b0a-0ee7-4f8e-963d-69868aa33420">
 			<comment>
 			</comment>
 			<bindings>
 			</bindings>
 		</keysequenceitem>
+		<explicitdelayitem
+		duration="500ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="665a2abf-4694-49a5-9b00-896a5a6fbc4a"

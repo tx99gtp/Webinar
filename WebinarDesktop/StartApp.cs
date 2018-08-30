@@ -87,9 +87,12 @@ namespace WebinarDesktop
             repo.RxMainFrame.Self.Focus();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LShiftKey down}{LWin down}{Right down}{LShiftKey up}{LWin up}{Right up}'.", new RecordItemIndex(2));
-            Keyboard.Press("{LShiftKey down}{LWin down}{Right down}{LShiftKey up}{LWin up}{Right up}");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LShiftKey down}{LWin down}{Right}{LShiftKey up}{LWin up}'.", new RecordItemIndex(2));
+            Keyboard.Press("{LShiftKey down}{LWin down}{Right}{LShiftKey up}{LWin up}");
             Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(3));
+            Delay.Duration(500, false);
             
         }
 

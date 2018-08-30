@@ -27,6 +27,16 @@ rxversion="8.2">
 	namespace="WebinarDesktop">
 	</codegen>
 	<variables>
+		<var
+		id="0d22e1db-57a2-4805-8be3-176cdafdc00f"
+		name="varFname">
+			Josh
+		</var>
+		<var
+		id="56c2dddd-53be-4b5e-935e-bd0a39421a6e"
+		name="varLname">
+			Owen
+		</var>
 	</variables>
 	<recorditems>
 		<mouseitem
@@ -286,6 +296,10 @@ gRsZ/wB6gD//2Q==
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="KeySequence"
+				variable="varFname">
+				</binding>
 			</bindings>
 			<info
 			id="ff9c1b7e-9a35-4248-84bd-221dd910ba90"
@@ -596,6 +610,10 @@ ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP//Z
 			<comment>
 			</comment>
 			<bindings>
+				<binding
+				target="KeySequence"
+				variable="varLname">
+				</binding>
 			</bindings>
 			<info
 			id="32804d51-e68e-45be-81b7-bdba15d5d2e0"

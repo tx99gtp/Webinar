@@ -78,6 +78,13 @@ rxversion="8.2">
 			</comment>
 			<bindings>
 			</bindings>
+			<info
+			id="828273ac-cd0f-4ff0-b8f7-aa8a364ec41b"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='RxMainFrame']
+				</path>
+			</info>
 		</keysequenceitem>
 		<explicitdelayitem
 		duration="500ms"

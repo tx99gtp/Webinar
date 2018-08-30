@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.2">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="WebinarDesktop"
+      id="7ba51e5b-cc18-4051-930c-94e07fddec9f"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="WebinarDesktop"
+      id="7ba51e5b-cc18-4051-930c-94e07fddec9f"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

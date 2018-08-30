@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="bc789272-7cfd-44dd-b7eb-dbb5ac0a00b1"
+mode="Desktop"
+rxversion="8.2">
+	<name>
+		StartApp
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartApp"
+	namespace="WebinarDesktop">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				C:\Users\Josh Owen\Desktop\DEMO\RxDemoApp.exe
+			</filename>
+			<workingdir>
+				C:\Users\Josh Owen\Desktop\DEMO
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+		<invokeactionrecorditem
+		action="Focus"
+		enabled="True"
+		optional="False"
+		searchpropertyid="1e5d28f7-3eca-4a60-966d-92bab106d09d"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="828273ac-cd0f-4ff0-b8f7-aa8a364ec41b"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='RxMainFrame']
+				</path>
+			</info>
+			<arguments
+			id="d156746b-d4ae-48e0-b0fe-1d318acd1e8f">
+			</arguments>
+		</invokeactionrecorditem>
+		<keysequenceitem
+		KeySequence="{LShiftKey down}{LWin down}{Right down}{LShiftKey up}{LWin up}{Right up}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="02238432-36fb-4a2a-95f2-e89378e66c8c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	id="665a2abf-4694-49a5-9b00-896a5a6fbc4a"
+	name="WebinarDesktopRepository"
+	relativepath="WebinarDesktopRepository.rxrep"
+	rxversion="8.2">
+		<codegen
+		classname="WebinarDesktopRepository"
+		namespace="WebinarDesktop">
+		</codegen>
+		<rootfolder
+		id="c06c5ae9-6272-4f10-8e1f-6fc8693d1bf4"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartApp.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

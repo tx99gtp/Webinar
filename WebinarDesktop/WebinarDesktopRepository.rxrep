@@ -19,7 +19,6 @@ rxversion="8.2">
 		id="828273ac-cd0f-4ff0-b8f7-aa8a364ec41b"
 		isrooted="True"
 		name="RxMainFrame"
-		refpath="/form[@name='RxMainFrame']"
 		searchtimeout="30000ms"
 		usecache="True">
 			<item
@@ -28,9 +27,8 @@ rxversion="8.2">
 			id="a6c1c9b3-3aff-489f-b255-a641082ea25f"
 			name="EnterYourName"
 			refimgid="b6acf42a-69fe-4ed7-9340-f239bf703bdf"
-			refpath="/form[@name='RxMainFrame']/tabpagelist/tabpage[@name='RxTabIntroduction']/text[@name='txtUserName']/text[@accessiblename='Enter your name']"
 			searchtimeout="30000ms">
-				/form[@name='RxMainFrame']//text[@accessiblename='Enter your name']
+				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']//text[@accessiblename='Enter your name']
 			</item>
 			<item
 			addcaps="button,control,nativewindow"
@@ -38,9 +36,8 @@ rxversion="8.2">
 			id="f7a2e8e9-7259-422a-b8e8-fa2ea6a86979"
 			name="BtnSubmitUserName"
 			refimgid="700477fe-73d4-424c-a6e8-641fea346219"
-			refpath="/form[@name='RxMainFrame']/tabpagelist/tabpage[@name='RxTabIntroduction']/button[@name='btnSubmitUserName']"
 			searchtimeout="30000ms">
-				/form[@name='RxMainFrame']//button[@name='btnSubmitUserName']
+				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']//button[@name='btnSubmitUserName']
 			</item>
 			<item
 			addcaps="text,control,nativewindow"
@@ -48,9 +45,8 @@ rxversion="8.2">
 			id="485d8052-535b-4c14-a221-ad6d4cbbbde6"
 			name="LblWelcomeMessage"
 			refimgid="b95d5635-e4af-4ba9-9af7-f1769149c98d"
-			refpath="/form[@name='RxMainFrame']/tabpagelist[@name='RxTabcontrol']/tabpage[@name='RxTabIntroduction']/text[@name='lblWelcomeMessage']"
 			searchtimeout="30000ms">
-				/form[@name='RxMainFrame']//text[@name='lblWelcomeMessage']
+				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']//text[@name='lblWelcomeMessage']
 			</item>
 			<item
 			addcaps="tabpage,accessible"
@@ -58,9 +54,8 @@ rxversion="8.2">
 			id="03c31a18-acdc-49f7-867f-c2cbac6734f5"
 			name="TestDatabase"
 			refimgid="cc277546-206f-44a8-a43a-5b439a9655b7"
-			refpath="/form[@name='RxMainFrame']/tabpagelist/tabpage[@accessiblename='Test database']"
 			searchtimeout="30000ms">
-				/form[@name='RxMainFrame']/?/?/tabpage[@accessiblename='Test database']
+				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']/?/?/tabpage[@accessiblename='Test database']
 			</item>
 			<item
 			addcaps="text,accessible"
@@ -68,9 +63,8 @@ rxversion="8.2">
 			id="ff9c1b7e-9a35-4248-84bd-221dd910ba90"
 			name="FirstName"
 			refimgid="398c1838-56b5-4a2d-bf72-286eb17a848e"
-			refpath="/form[@name='RxMainFrame']/tabpagelist/tabpage[@name='RxTabStandard']/text[@name='txtFirstName']/text[@accessiblename='First name']"
 			searchtimeout="30000ms">
-				/form[@name='RxMainFrame']//text[@accessiblename='First name']
+				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']//text[@accessiblename='First name']
 			</item>
 			<item
 			addcaps="text,accessible"
@@ -78,9 +72,8 @@ rxversion="8.2">
 			id="32804d51-e68e-45be-81b7-bdba15d5d2e0"
 			name="LastName"
 			refimgid="67275234-deca-4baa-a5e4-0f758bb95a02"
-			refpath="/form[@name='RxMainFrame']/tabpagelist/tabpage[@name='RxTabStandard']/text[@name='txtLastName']/text[@accessiblename='Last name']"
 			searchtimeout="30000ms">
-				/form[@name='RxMainFrame']//text[@accessiblename='Last name']
+				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']//text[@accessiblename='Last name']
 			</item>
 			<item
 			addcaps="button,accessible"
@@ -88,9 +81,8 @@ rxversion="8.2">
 			id="a1f27f2d-f58f-4304-9726-4143b94b248b"
 			name="Open"
 			refimgid="5e701569-91a4-4e8c-9ffa-4c744f09b337"
-			refpath="/form[@name='RxMainFrame']/tabpagelist/tabpage[@name='RxTabStandard']/combobox/button[@accessiblename='Open']"
 			searchtimeout="30000ms">
-				/form[@name='RxMainFrame']//button[@accessiblename='Open']
+				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']//button[@accessiblename='Open']
 			</item>
 			<item
 			addcaps="radiobutton,control,nativewindow"
@@ -98,9 +90,8 @@ rxversion="8.2">
 			id="3474f964-6dd7-4335-9e04-db9280ceeb60"
 			name="RdbMale"
 			refimgid="b78c9f72-fe37-4f2f-93d8-052c7e8db37e"
-			refpath="/form[@name='RxMainFrame']/tabpagelist/tabpage[@name='RxTabStandard']/container[@name='grpGender']/radiobutton[@name='rdbMale']"
 			searchtimeout="30000ms">
-				/form[@name='RxMainFrame']//radiobutton[@name='rdbMale']
+				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']//radiobutton[@name='rdbMale']
 			</item>
 			<item
 			addcaps="button,control,nativewindow"
@@ -108,9 +99,8 @@ rxversion="8.2">
 			id="a703f5af-5a6b-413f-9a30-61a7a27dfb15"
 			name="BtnAddPerson"
 			refimgid="5073f643-57a1-4c39-a2d6-689bd3b84a0c"
-			refpath="/form[@name='RxMainFrame']/tabpagelist/tabpage[@name='RxTabStandard']/button[@name='btnAddPerson']"
 			searchtimeout="30000ms">
-				/form[@name='RxMainFrame']//button[@name='btnAddPerson']
+				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']//button[@name='btnAddPerson']
 			</item>
 			<item
 			addcaps="listitem,accessible"
@@ -119,7 +109,7 @@ rxversion="8.2">
 			name="JoshOwenMale0Testing"
 			refimgid="a837fe35-d7ac-4c1a-b982-671c9a765479"
 			searchtimeout="30000ms">
-				/form[@name='RxMainFrame']/tabpagelist[@name='RxTabcontrol']//listitem[@accessiblename~'^JoshOwen']
+				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']/tabpagelist[@name='RxTabcontrol']//listitem[@accessiblename~'^JoshOwen']
 			</item>
 			<item
 			addcaps="text,control,nativewindow"
@@ -127,9 +117,8 @@ rxversion="8.2">
 			id="4aa1990b-1d69-423a-96cf-aaa24678d24a"
 			name="LblNumberOfPersonsNumber"
 			refimgid="15ceb3e5-207c-44d1-be6a-80cb6477f006"
-			refpath="/form[@name='RxMainFrame']/tabpagelist[@name='RxTabcontrol']/tabpage[@name='RxTabStandard']/text[@name='lblNumberOfPersonsNumber']"
 			searchtimeout="30000ms">
-				/form[@name='RxMainFrame']//text[@name='lblNumberOfPersonsNumber']
+				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']//text[@name='lblNumberOfPersonsNumber']
 			</item>
 			<item
 			addcaps="button,control,nativewindow"
@@ -137,9 +126,8 @@ rxversion="8.2">
 			id="c584243c-2896-4e16-8804-b9514325060d"
 			name="RxButtonExit"
 			refimgid="790877f4-0d0e-4529-9b9f-17b69078c334"
-			refpath="/form[@name='RxMainFrame']/button[@name='RxButtonExit']"
 			searchtimeout="30000ms">
-				/form[@name='RxMainFrame']/button[@name='RxButtonExit']
+				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']/button[@name='RxButtonExit']
 			</item>
 			<item
 			addcaps="titlebar,accessible"
@@ -147,12 +135,11 @@ rxversion="8.2">
 			id="14d1791c-620c-4596-b3f7-2e6f02cb27d1"
 			name="RanorexStudioDemoApplication"
 			refimgid="15501538-1ef0-4ace-8989-4510b1cba8e6"
-			refpath="/form[@name='RxMainFrame']/titlebar[@accessiblerole='TitleBar']"
 			searchtimeout="30000ms">
-				/form[@name='RxMainFrame']/titlebar[@accessiblerole='TitleBar']
+				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']/titlebar[@accessiblerole='TitleBar']
 			</item>
 			<basepath>
-				/form[@name='RxMainFrame']
+				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']
 			</basepath>
 			<icon>
 				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx

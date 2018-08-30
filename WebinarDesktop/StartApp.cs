@@ -87,12 +87,13 @@ namespace WebinarDesktop
             repo.RxMainFrame.Self.Focus();
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LShiftKey down}{LWin down}{Right}{LShiftKey up}{LWin up}' with focus on 'RxMainFrame'.", repo.RxMainFrame.SelfInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame' at Center.", repo.RxMainFrame.SelfInfo, new RecordItemIndex(2));
+            repo.RxMainFrame.Self.Click();
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LShiftKey down}{LWin down}{Right}{LShiftKey up}{LWin up}' with focus on 'RxMainFrame'.", repo.RxMainFrame.SelfInfo, new RecordItemIndex(3));
             repo.RxMainFrame.Self.PressKeys("{LShiftKey down}{LWin down}{Right}{LShiftKey up}{LWin up}");
             Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 500ms.", new RecordItemIndex(3));
-            Delay.Duration(500, false);
             
         }
 

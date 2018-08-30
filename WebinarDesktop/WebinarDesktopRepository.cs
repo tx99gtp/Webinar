@@ -114,7 +114,7 @@ namespace WebinarDesktop
             /// Creates a new RxMainFrame  folder.
             /// </summary>
             public RxMainFrameAppFolder(RepoGenBaseFolder parentFolder) :
-                    base("RxMainFrame", "/form[@name='RxMainFrame']", parentFolder, 30000, null, true, "828273ac-cd0f-4ff0-b8f7-aa8a364ec41b", "")
+                    base("RxMainFrame", "/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']", parentFolder, 30000, null, true, "828273ac-cd0f-4ff0-b8f7-aa8a364ec41b", "")
             {
                 _enteryournameInfo = new RepoItemInfo(this, "EnterYourName", ".//text[@accessiblename='Enter your name']", 30000, null, "a6c1c9b3-3aff-489f-b255-a641082ea25f");
                 _btnsubmitusernameInfo = new RepoItemInfo(this, "BtnSubmitUserName", ".//button[@name='btnSubmitUserName']", 30000, null, "f7a2e8e9-7259-422a-b8e8-fa2ea6a86979");

@@ -67,6 +67,30 @@ rxversion="8.2">
 			id="d156746b-d4ae-48e0-b0fe-1d318acd1e8f">
 			</arguments>
 		</invokeactionrecorditem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="252e00cf-fbc8-43ff-a25c-b1853d1041d3"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="828273ac-cd0f-4ff0-b8f7-aa8a364ec41b"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@name='RxMainFrame']
+				</path>
+			</info>
+		</mouseitem>
 		<keysequenceitem
 		KeySequence="{LShiftKey down}{LWin down}{Right}{LShiftKey up}{LWin up}"
 		duration="100ms"
@@ -86,15 +110,6 @@ rxversion="8.2">
 				</path>
 			</info>
 		</keysequenceitem>
-		<explicitdelayitem
-		duration="500ms"
-		enabled="True"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
 	</recorditems>
 	<repository
 	id="665a2abf-4694-49a5-9b00-896a5a6fbc4a"

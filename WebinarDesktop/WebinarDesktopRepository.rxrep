@@ -138,6 +138,16 @@ rxversion="8.2">
 			searchtimeout="30000ms">
 				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']/titlebar[@accessiblerole='TitleBar']
 			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="3412fe23-90e4-4aac-87aa-8671f452405e"
+			name="UpDownEdit"
+			refimgid="fbc3ad2c-4589-4c2d-b6a8-a2d864301562"
+			refpath="/form[@name='RxMainFrame']/tabpagelist[@name='RxTabcontrol']/tabpage[@name='RxTabStandard']/container[@name='txtAge']/text[@name='']"
+			searchtimeout="30000ms">
+				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']//text[@name='']
+			</item>
 			<basepath>
 				/form[@name='RxMainFrame' and @title='Ranorex Studio Demo Application']
 			</basepath>

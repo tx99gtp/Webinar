@@ -133,11 +133,15 @@ namespace WebinarDesktop
             repo.List1000.Testing.Click("51;0");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RdbMale' at 6;8.", repo.RxMainFrame.RdbMaleInfo, new RecordItemIndex(7));
+            Report.Log(ReportLevel.Info, "Set value", "Setting attribute Text to '33' on item 'RxMainFrame.UpDownEdit'.", repo.RxMainFrame.UpDownEditInfo, new RecordItemIndex(7));
+            repo.RxMainFrame.UpDownEdit.Element.SetAttributeValue("Text", "33");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.RdbMale' at 6;8.", repo.RxMainFrame.RdbMaleInfo, new RecordItemIndex(8));
             repo.RxMainFrame.RdbMale.Click("6;8");
             Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.BtnAddPerson' at 64;8.", repo.RxMainFrame.BtnAddPersonInfo, new RecordItemIndex(8));
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RxMainFrame.BtnAddPerson' at 64;8.", repo.RxMainFrame.BtnAddPersonInfo, new RecordItemIndex(9));
             repo.RxMainFrame.BtnAddPerson.Click("64;8");
             Delay.Milliseconds(200);
             

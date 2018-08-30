@@ -109,6 +109,7 @@ namespace WebinarDesktop
             RepoItemInfo _lblnumberofpersonsnumberInfo;
             RepoItemInfo _rxbuttonexitInfo;
             RepoItemInfo _ranorexstudiodemoapplicationInfo;
+            RepoItemInfo _updowneditInfo;
 
             /// <summary>
             /// Creates a new RxMainFrame  folder.
@@ -129,6 +130,7 @@ namespace WebinarDesktop
                 _lblnumberofpersonsnumberInfo = new RepoItemInfo(this, "LblNumberOfPersonsNumber", ".//text[@name='lblNumberOfPersonsNumber']", 30000, null, "4aa1990b-1d69-423a-96cf-aaa24678d24a");
                 _rxbuttonexitInfo = new RepoItemInfo(this, "RxButtonExit", "button[@name='RxButtonExit']", 30000, null, "c584243c-2896-4e16-8804-b9514325060d");
                 _ranorexstudiodemoapplicationInfo = new RepoItemInfo(this, "RanorexStudioDemoApplication", "titlebar[@accessiblerole='TitleBar']", 30000, null, "14d1791c-620c-4596-b3f7-2e6f02cb27d1");
+                _updowneditInfo = new RepoItemInfo(this, "UpDownEdit", ".//text[@name='']", 30000, null, "3412fe23-90e4-4aac-87aa-8671f452405e");
             }
 
             /// <summary>
@@ -464,6 +466,30 @@ namespace WebinarDesktop
                 get
                 {
                     return _ranorexstudiodemoapplicationInfo;
+                }
+            }
+
+            /// <summary>
+            /// The UpDownEdit item.
+            /// </summary>
+            [RepositoryItem("3412fe23-90e4-4aac-87aa-8671f452405e")]
+            public virtual Ranorex.Text UpDownEdit
+            {
+                get
+                {
+                    return _updowneditInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The UpDownEdit item info.
+            /// </summary>
+            [RepositoryItemInfo("3412fe23-90e4-4aac-87aa-8671f452405e")]
+            public virtual RepoItemInfo UpDownEditInfo
+            {
+                get
+                {
+                    return _updowneditInfo;
                 }
             }
         }
